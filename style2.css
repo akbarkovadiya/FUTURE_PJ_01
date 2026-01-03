@@ -1,0 +1,251 @@
+/* CATEGORY CARD */
+.skill-category {
+    padding: 35px;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.4s ease;
+}
+
+.skill-category:hover {
+    transform: translateY(-10px);
+}
+
+/* FRONTEND / BACKEND COLORS */
+.frontend {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.backend {
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+}
+
+.skill-category h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+/* SKILL ROW */
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 14px 18px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.skill-item:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* BADGES */
+.badge {
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* LEVEL COLORS */
+.basic {
+    background: #ececec;
+    color: #333;
+}
+
+.intermediate {
+    background: #ffdd57;
+    color: #000;
+}
+
+.experienced {
+    background: #4ade80;
+    color: #064e3b;
+}
+
+.projects-section {
+    width: 85%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* PROJECT CARD */
+.project-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+    text-align: left;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    margin-bottom: 100px;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+.project-card h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* TAGS */
+.project-tags {
+    margin-bottom: 20px;
+}
+
+.project-tags span {
+    display: inline-block;
+    background: #f0f0f0;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+/* BUTTONS */
+.project-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* BUTTON COLORS */
+.btn.live {
+    background: #4f46e5;
+    color: white;
+}
+
+.btn.live:hover {
+    background: #3730a3;
+}
+
+.btn.code {
+    background: #e5e7eb;
+    color: #111;
+}
+
+.btn.code:hover {
+    background: #d1d5db;
+}
+
+/* PROJECT IMAGES */
+.project-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-bottom: 18px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+/* Contact Section */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-box {
+    border: 2px solid rgb(175, 173, 173);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    width: 25rem;
+    display: flex;
+    gap: 3rem;
+    font-size: 1.2rem;
+}
+
+.contact-box a img {
+    height: 36px;
+    width: 36px;
+    margin-right: 0.6rem;
+}
+
+.email a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+}
+
+.linkin a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 14rem;
+    
+}
+
+.nav-links-footer:hover {
+    cursor: pointer;
+}
+
+.nav-links-footer ul {
+    display: flex;
+    list-style: none;
+     display: flex;
+    gap: 20px;
+}
+
+.nav-links-footer li {
+    font-size: 1.5rem;
+   
+}
+
+.nav-links-footer li:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+    transition: all 0.3s ease;
+}
+
+/* Footer Section */
+
+.copy {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #4B5563;
+    font-size: 0.9rem;
+}
+
+.f-mt {
+    margin-top: 14.5rem;
+}

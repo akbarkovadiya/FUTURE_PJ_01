@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbarali Kovadiya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="Responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <!-- NAV -->
+        <div class="nav">
+            <div class="name">Akbarali Kovadiya</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                ☰
+            </div>
+            <div class="nav-links" id="navLinks">
+      <ul>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+        </div>
+
+        <!-- About -->
+        <div class="profile">
+            <div class="image">
+                <img src="https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"
+                    alt="">
+            </div>
+            <div class="intro">
+                <div class="greet">
+                    <p>Hello,I'm</p>
+                </div>
+                <div class="mname">
+                    <p>Akbarali Kovadiya</p>
+                </div>
+                <div class="role">
+                    <p>Web Developer</p>
+                </div>
+                <div class="cards">
+                    <button onclick="downloadResume()" class="res">Resume</button>
+                    <div class="pro"><button>
+                            <p>Projects</p>
+                        </button>
+                    </div>
+
+                    <div class="con"><button>
+                            <p>Contact</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="logo">
+                    <div class="linkedin"><a href="https://www.linkedin.com/in/akbarali-kovadiya-9aa4503a0/"
+                            target="_blank"><img src="assest/link.png" alt=""></a></div>
+                    <div class="github"><a href="https://github.com/akbarkovadiya" target="_blank"><img
+                                src="assest/gh.png" alt=""></a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="know-more">
+        <p class="know">Get to Know More</p>
+        <p class="about-me">About Me</p>
+    </div>
+
+    <!-- ABOUT MORE -->
+
+    <div class="about" >
+        <div class="about-content">
+            <div class="about-box">
+                <div class="experience">
+                    <div class="ex-icon"><img src="./assest/experience.png" alt=""></div>
+                    <p class="exp">Experience</p>
+                    <p class="ex-text">Intern</p>
+                    <p class="ex-text">Full Stack Development</p>
+                </div>
+                <div class="edu">
+                    <div class="ex-icon"><img src="./assest/education.png" alt=""></div>
+                    <p class="exp">Education</p>
+                    <p class="ex-text">Bechlore of Scince</p>
+                    <p class="ex-text">Information Technology</p>
+                </div>
+            </div>
+            <div class="summary">
+                <p>Motivated B.Sc. Information Technology student with hands-on experience in full-stack web
+                    development. Proficient in building responsive web applications using modern JavaScript
+                    frameworks and technologies. Strong foundation in CRUD operations, RESTful API design, and
+                    cloud-based database management. Passionate about creating user-focused solutions with clean,
+                    maintainable code.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills-section">
+        <div class="know-more">
+            <p class="know">Technologies I work with</p>
+            <p class="about-me">Skills</p>
+    </div>
+
+        <div class="skills-wrapper">
+
+            <!-- FRONTEND -->
+            <div class="skill-category frontend">
+                <h3>🎨 Frontend</h3>
+
+                <div class="skill-item">
+                    <span>HTML</span>
+                    <span class="badge experienced">Experienced</span>
+                </div>
+
+                <div class="skill-item">
+                    <span>CSS</span>
+                    <span class="badge experienced">Experienced</span>
+                </div>
+
+                <div class="skill-item">
+                    <span>JavaScript</span>
+                    <span class="badge intermediate">Intermediate</span>
+                </div>
+
+                <div class="skill-item">
+                    <span>Bootstrap</span>
+                    <span class="badge intermediate">Intermediate</span>
+                </div>
+
+                <div class="skill-item">
+                    <span>Responsive Design</span>
+                    <span class="badge intermediate">Intermediate</span>
+                </div>
+            </div>
+
+            <!-- BACKEND -->
+            <div class="skill-category backend">
+                <h3>⚙️ Backend</h3>
+
+                <div class="skill-item">
+                    <span>Node.js</span>
+                    <span class="badge intermediate">Intermediate</span>
+                </div>
+
+                <div class="skill-item">
+                    <span>MongoDB</span>
+                    <span class="badge basic">Basic</span>
+                </div>
+
+                <div class="skill-item">
+                    <span>Git</span>
+                    <span class="badge basic">Basic</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="know-more">
+        <p class="know">Explore My,</p>
+        <p class="about-me">Projects</p>
+    </div>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects-section" id="projects">
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="assest/Spot.png" alt="Spotify Clone Project" class="project-img">
+
+                <h3>Spotify Clone</h3>
+                <p>
+                    A music streaming web app inspired by Spotify UI.
+                    Includes playlists, play/pause controls, and responsive layout.
+                </p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="#" class="btn live">Live Demo</a>
+                    <a href="#" class="btn code">Source Code</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="assest/Resume.png" alt="Resume Builder Project" class="project-img">
+
+                <h3>Resume Builder</h3>
+                <p>
+                    A resume builder application that allows users to
+                    generate and download professional resumes easily.
+                </p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="https://akbarkovadiya.github.io/Resume_Builder/" target="_blank" class="btn live">Live
+                        Demo</a>
+                    <a href="https://github.com/akbarkovadiya/Resume_Builder" target="_blank" class="btn code">Source
+                        Code</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="assest/weather.png" alt="Weather App Project" class="project-img">
+
+                <h3>Weather App</h3>
+                <p>
+                    A weather application that fetches real-time weather
+                    data using API and displays temperature & conditions.
+                </p>
+                <div class="project-tags">
+                    <span>JavaScript</span>
+                    <span>API</span>
+                    <span>Responsive</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="https://akbarkovadiya.github.io/Weather_app/" target="_blank" class="btn live">Live
+                        Demo</a>
+                    <a href="https://github.com/akbarkovadiya/Weather_app" target="_blank" class="btn code">Source
+                        Code</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT ME -->
+    <div class="know-more">
+        <p class="know">Get in Touch</p>
+        <p class="about-me">Contact Me</p>
+    </div>
+    <div class="contact-container">
+        <div class="contact-box">
+            <div class="email"><a href="mailto:akbaralikovadiya2006@gmail.com"><img src="assest/email.png"
+                        alt="">akbar@gmail.com</a></div>
+            <div class="linkin"><a href="https://www.linkedin.com/in/akbarali-kovadiya-9aa4503a0/" target="_blank"><img
+                        src="assest/linkedin.png" alt=""> LinkedIn</a></div>
+        </div>
+        <div class="nav-links-footer">
+            <ul>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="copy">
+            <p>Copyright © 2025 Akbarali Kovadiya. All Rights Reserved.</p>
+        </div>
+    </footer>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>

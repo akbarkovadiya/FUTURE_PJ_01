@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 2.2rem;
+  cursor: pointer;
+}
+.main{
+    width: 75%;
+    margin: 0 auto;
+}
+/* NAVIGATION */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #363c44;
+    height: 18vh;
+    position: relative;
+}
+.name{
+    color: black;
+    font-size: 26px;
+}
+/* Nav links */
+.nav-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 1.7rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+  transition: all 0.3s ease;
+}
+/* ABOUT */
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 100px;
+}
+.image img{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.greet p{
+    font-size: 16px;
+    color: #4B5563;
+    font-weight: 600;
+}
+.mname p{
+    font-size: 38px;
+    color: black;
+    font-weight: 600;
+}
+.role p{
+    font-size: 30px;
+    color: #4B5563;
+    font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-top: 10px;
+}
+
+.res{
+    background-color: #f4a300;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.res:hover{
+    background-color: #c38c1f;
+}
+.pro{
+    background-color: #e53935;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.pro p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.pro button{
+   background-color: #e53935;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: none; 
+    cursor: pointer;
+}
+.pro :hover{
+    background-color: #933331;
+}
+.con{
+    background-color: #6ec6d8;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.con p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.con button{
+   background-color: #6ec6d8;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: none; 
+    cursor: pointer;
+}
+.con :hover{
+    background-color: #5f838a;
+}
+
+.logo{
+    display: flex;
+    gap: 15px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.linkedin img{
+    height: 31px;
+    width: 31px;
+}
+.github img{
+    height: 30px;
+    width: 30px;
+}
+
+.know-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.know {
+    margin-top: 1rem;
+    font-size: 1.10rem;
+    font-weight: 500;
+    color: #4B5563;
+    text-align: center;
+}
+
+.about-me {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/* ABOUT MORE */
+/* About Section */
+
+.about {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+.about-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(175, 173, 173);
+    border-radius: 2rem;
+    padding: 1.3rem;
+    width: 18rem;
+    height: 9rem;
+}
+
+.edu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(175, 173, 173);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    width: 18rem;
+    margin-left: 2rem;
+    height: 9rem;
+}
+
+.exp {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 0.4rem;
+}
+
+.ex-text {
+    font-size: 1rem;
+    color: #4B5563;
+}
+
+.ex-icon img {
+    height: 2rem;
+}
+
+.summary {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #4B5563;
+    line-height: 1.5rem;
+}   
+
+.skills-section {
+    width: 85%;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.skills-section h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.skills-subtitle {
+    color: #666;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    font-size: 1.10rem;
+    font-weight: 600;
+}
+
+.skills-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    padding-top: 50px;
+}
+

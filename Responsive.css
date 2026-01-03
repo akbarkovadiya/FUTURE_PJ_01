@@ -1,0 +1,198 @@
+@media (max-width: 1050px) {
+
+    /* MAIN */
+    .main {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* NAVBAR */
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+        padding: 1rem 0;
+        position: relative;
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    /* HAMBURGER */
+    .menu-toggle {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    /* NAV LINKS*/
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+        display: none;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        z-index: 99;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem 0;
+        gap: 1.2rem;
+    }
+
+    .nav-links li {
+        font-size: 1.2rem;
+    }
+
+    .nav-links.active {
+        display: block;
+    }
+
+    /* PROFILE */
+    .profile {
+        flex-direction: column;
+        text-align: center;
+        gap: 2.5rem;
+        padding-top: 3rem;
+    }
+
+    .image img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .mname p {
+        font-size: 2rem;
+    }
+
+    .role p {
+        font-size: 1.4rem;
+    }
+
+    /* BUTTON CIRCLES */
+    .cards {
+        flex-wrap: wrap;
+        gap: 1.2rem;
+    }
+
+    .res button,
+    .pro button,
+    .con button {
+        width: 75px;
+        height: 75px;
+        font-size: 1rem;
+    }
+    .logo{
+        padding-bottom: 100px;
+    }
+
+    /* ABOUT */
+    .about {
+        flex-direction: column;
+        margin-top: 0.5rem;
+    }
+
+   
+    .know {
+        font-weight: 400
+    }
+
+    .about-box {
+        margin-top: 0;
+        gap: 1rem;
+    }
+
+    .about-me {
+        font-size: 2rem;
+    }
+
+    .experience {
+        width: 33vw;
+        text-align: center;
+        align-items: unset;
+        height: 206px;
+    }
+
+    .edu {
+        width: 32vw;
+        text-align: center;
+        margin: 0;
+        height: 200px;
+    }
+
+    .about-content {
+        margin: 0;
+        margin-top: 2rem;
+    }
+
+    .summary p{
+        font-size: 0.9rem;
+        word-spacing: 4px;
+        margin-left: 20px;
+    }
+
+
+    /* SKILLS */
+    .skills-section {
+        width: 95%;
+    }
+
+    .skills-wrapper {
+        grid-template-columns: 1fr;
+        padding-top: 60px;
+    }
+
+    /* PROJECTS */
+    .projects-section {
+        width: 95%;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .project-img {
+        height: 220px;
+        object-fit: cover;
+        background: #f5f7fa;
+    }
+
+    .contact-box {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        gap: 0rem;
+    }
+
+    .nav-links-footer {
+        align-items: center;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .nav-links-footer ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .nav-links-footer li {
+        margin: 0;
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1051px) {
+    .menu-toggle {
+        display: none;
+    }
+}
